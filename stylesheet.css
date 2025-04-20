@@ -1,0 +1,105 @@
+
+.wrapper{
+  max-width:960px;
+  margin:0 auto;
+  padding:0 4%;
+  background-color:white;
+}
+
+header{
+  padding:0 4%;
+  height:50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  /*webページのこの部分はこういうみたいな、パーツ・部品の名前が分からないから知りたい*/
+}
+
+#logo img{
+  width:100px;
+  height:auto;
+}
+
+ul{
+  display:flex;
+}
+
+li{
+  list-style:none;
+  text-decoration:none;
+  /*AboutとBicycleをどうやって左に持って行くのか？
+  inline-blockが何だったか？
+  やっぱり何が横いっぱいに広がるやつで、何がインラインだったか、
+  ボックスモデルとレイアウトの理論をもう一度理解し治した方が良い
+  こんなにゼロベースでコードを書くのか？インソースのwebページ、
+  実際はフレームワークとか使っているのか
+  それでも、コードが読めることを考えると、最初は模写コーディングをした方が良いのか*/
+  margin-left:40px;
+}
+
+header a{
+  text-decoration:none;
+}
+
+/*タグにどのid・クラス名をつけるのか、どう命名すると、cssで効率的に、ミスなく装飾がしやすいのか
+考えるのが難しいな。特に、先にhtmlを書いて、あとでcssっていう書き方だと、なかなか先に想像できない*/
+#logo{
+  width:100px;
+  height:40px;
+}
+#main-visual{
+  height:600px;
+  width:100%;
+  max-width: 1920px;
+  object-fit:cover;
+}
+
+.content2{
+  margin-bottom:100px;
+  margin-top:80px;
+}
+#About{
+  text-align:center;
+  text-decoration:underline;
+}
+
+.hito{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.hito img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-right:30px;
+}
+
+#Bicycle{
+  text-align:center;
+  text-decoration:underline;
+}
+
+.jitensha{
+  display:flex;
+  justify-content:center;
+}
+
+.jitensha section{
+  margin-right:15px;
+  text-align:center;
+}
+.jitensha img{
+  width:250px;
+  height:auto;
+}
+
+.content3{
+  margin-bottom:100px;
+}
+footer{
+  text-align:center;
+  font-size:12px;
+}
